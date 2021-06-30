@@ -82,7 +82,7 @@ b = "Twelfth Grade";
 }if( r==13){
 b = "College Student";
 }
-if(r == 14){
+if(r >= 14){
 b = "Professor";
 }
 return  b;
