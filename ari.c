@@ -1,4 +1,4 @@
-string ari(string a){
+char * ari(char *a){
 int num_char= 0 ;
 int num_words = 0;
 int num_sentence = 0;
@@ -21,7 +21,7 @@ float f = (4.71*(float)c/(float)w) + (0.5*(float)w/(float)s) - 21.43;
 int r = floor(f) + 1;
 
 
-string b;
+char *b;
 if( r== 1){
 b = "Kindergarten";
 }
@@ -54,6 +54,6 @@ b = "College Student";
 if(r >= 14){
 b = "Professor";
 }
-return  b;
+return  char *b;
 }
 
